@@ -1,5 +1,4 @@
-@import '../../styles/main.scss';
-
+@use '../../styles/main.scss' as *;
 .experiences-container {
     min-height: 100vh;
     min-width: 100vh;
