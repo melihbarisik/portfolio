@@ -1,0 +1,8 @@
+@keyframes scrollUp {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(-$word-height); }
+    40% { transform: translateY(-$word-height * 2); }
+    60% { transform: translateY(-$word-height * 3); }
+    80% { transform: translateY(-$word-height * 4); }
+    100% { transform: translateY(0); }
+}

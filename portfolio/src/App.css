@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: 'Space Mono', monospace;
+}
+
+
+body {
+  background-color: #0a0a0a;
+  background-image:
+    linear-gradient(to bottom, rgba(90, 90, 90, 0.3) 1px, transparent 1px),
+    linear-gradient(to right, rgba(90, 90, 90, 0.3) 1px, transparent 1px),
+    radial-gradient(circle at 105% 105%, rgba(0, 0, 0, 0.3) 0%, transparent 40%);
+  background-size:
+    calc(100vw/20) calc(100vh/20),
+    calc(100vw/20) calc(100vh/20),
+    cover;
+  background-position:
+    -1px -1px,
+    -1px -1px,
+    0 0;
+  background-repeat: repeat;
+  /* Blend mode'u kaldırdık */
+}
+
+.app-background {
+  background-size: cover;
+  /* Resmi kapsayacak şekilde ayarlar */
+  background-position: center;
+  /* Resmi ortalar */
+  background-repeat: no-repeat;
+  /* Resmin tekrar etmesini engeller */
+  height: 100vh;
+  /* Tüm ekranı kaplar */
+  width: 100%;
+}
