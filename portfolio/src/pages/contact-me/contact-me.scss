@@ -1,0 +1,78 @@
+@import '../../styles/main.scss';
+
+.contact-me {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    h1 {
+        color: white
+    }
+}
+
+.contact-card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contact-me-container {
+
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 0.1em;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+.contact-card {
+    width: 420px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+
+    padding: 2rem;
+    background: rgba(31, 41, 55, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(125, 134, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(14, 15, 27, 0.15);
+
+    border-radius: 16px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: rgba(125, 134, 255, 0.12);
+        box-shadow: 0 8px 32px rgba(14, 15, 27, 0.25);
+    }
+
+    h1,
+    p {
+        color: white;
+    }
+}
+
+.contact-card-link {
+    display: flex;
+    gap: 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+    a {
+        text-decoration: none;
+        color: $text-color;
+    }
+
+    &:hover {
+        transform: scale(1.05); // Büyütme efekti
+
+    }
+}

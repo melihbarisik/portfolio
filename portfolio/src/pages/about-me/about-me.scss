@@ -1,0 +1,61 @@
+@import '../../styles/main.scss';
+
+.about-me-container {
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+.about-me-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-me-content {
+    max-width: 640px;
+    padding: 2rem;
+    border-radius: 16px;
+
+    background: rgba(31, 41, 55, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(125, 134, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(14, 15, 27, 0.15);
+
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: rgba(125, 134, 255, 0.12);
+        box-shadow: 0 8px 32px rgba(14, 15, 27, 0.25);
+    }
+
+    p {
+        margin-top: 20px;
+        color: $text-color;
+        line-height: 1.8;
+        font-size: 1rem;
+
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    h1 {
+        color: $text-color;
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
+
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+}

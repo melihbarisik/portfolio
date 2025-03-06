@@ -1,0 +1,23 @@
+@import '../../../styles/main.scss';
+
+
+.info-button-container {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 8px;
+    padding: 0.35rem 0.5rem;
+    color: $secondary-color;
+    font-size: 0.75rem;
+    background: rgba(31, 41, 55, 0.3);
+    border: 1px solid rgba(125, 134, 255, 0.08);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: $text-color;
+        transform: scale(1.02);
+        border-color: rgba(125, 134, 255, 0.12);
+        background-color: rgba(31, 41, 55, 0.4);
+    }
+}

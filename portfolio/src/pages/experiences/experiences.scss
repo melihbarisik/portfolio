@@ -1,0 +1,58 @@
+@import '../../styles/main.scss';
+
+.experiences-container {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-color;
+
+    h1 {
+        transform: rotate(270deg);
+        font-size: 3rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+.experinces-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 640px;
+}
+
+.experinces-card {
+    padding: 2rem;
+    background: rgba(31, 41, 55, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(125, 134, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(14, 15, 27, 0.15);
+
+    border-radius: 16px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: rgba(125, 134, 255, 0.12);
+        box-shadow: 0 8px 32px rgba(14, 15, 27, 0.25);
+    }
+
+    p {
+        color: $text-color;
+        line-height: 1.8;
+        font-size: 1rem;
+
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../styles/main.scss';
+
+// tech-stack.scss
+.tech-stack-container {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-color;
+    gap: 3rem;
+}
+
+.tech-stack-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.tech-stack-title {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+.tech-stack-list-container {
+    height: 300px;
+    width: 400px;
+
+    overflow: hidden;
+    position: relative;
+}

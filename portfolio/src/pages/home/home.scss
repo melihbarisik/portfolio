@@ -1,0 +1,61 @@
+@import '../../styles/main.scss';
+
+.portfolio-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: $text-color;
+
+    @media (max-width: 768px) {
+        padding: 1rem;
+    }
+}
+
+.hero-section {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+
+    .name {
+        font-size: clamp(2rem, 5vw, $font-size-large);
+        color: $text-color;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+    .title {
+        font-size: clamp(1.2rem, 3vw, $font-size-medium);
+        color: $text-color;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+    }
+}
+
+.scrolling-words-container {
+    height: $word-height;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 600px;
+
+    .scrolling-words-box {
+        height: $word-height;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            animation: scrollUp $scroll-duration infinite;
+
+            li {
+                height: $word-height;
+                line-height: $word-height;
+                font-size: clamp(1rem, 2.5vw, $font-size-small);
+                color: $accent-color;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}
