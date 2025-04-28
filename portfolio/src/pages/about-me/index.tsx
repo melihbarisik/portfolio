@@ -5,13 +5,11 @@ export default function AboutMe() {
     return (
         <div className="about-me-container">
             <div className='about-me-content'>
-                <h1>About me</h1>
-                <p>As a frontend developer, I have worked on various projects using React and Angular for the past 3 years. Creating user-centered, interactive, and efficient applications is a great passion of mine. Currently, I am developing modern web applications using Next.js 15 and React 19 technologies.</p>
-
-                <p>I completed my education in Computer Engineering at Sakarya University. During this time, I received a year of foreign language education and spent half a semester in Poland as an exchange student. This experience was both fun and enriching for me.</p>
-
-                <p>In both my professional work and personal projects, I gained experience with authentication systems like Keycloak. I have in-depth knowledge of developing secure and scalable applications. In various projects, I have provided solutions to ensure easy login for users and data security.</p>
-
+            <h1>About me</h1>
+            <p>I’m a software engineer with 3 years of experience in React and Angular. I’m passionate about building user-focused, interactive, and efficient web applications. Currently, I’m working with Next.js 15 and React 19.</p>
+            <p>I studied Computer Engineering at Sakarya University, including a year of language education and an Erasmus exchange in Poland, which was both fun and enriching.</p>
+            <p>I’ve worked with authentication systems like Keycloak, focusing on secure and scalable applications with smooth login experiences.</p>
+            <p>Lately, I’ve been expanding my skills in backend development using Java and Spring Boot, building RESTful APIs and learning about Spring’s core features.</p>
             </div>
         </div>
     )

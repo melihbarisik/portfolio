@@ -1,5 +1,7 @@
 export type IconNamesType =
     | 'javascript'
+    | 'typescript'
+    | 'java'
     | 'angular'
     | 'react'
     | 'html'

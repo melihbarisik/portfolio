@@ -14,6 +14,8 @@ export default function HomePage() {
                             <li>CSS/SASS</li>
                             <li>Angular, Angular Material</li>
                             <li>React, Nextjs</li>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
                         </ul>
                     </div>
                 </div>

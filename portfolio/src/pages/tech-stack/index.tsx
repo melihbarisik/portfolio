@@ -5,10 +5,12 @@ const development = {
     header: 'Code',
     headerIcon: 'code',
     items: [
-        { title: 'Javascript', icon: 'javascript' },
-        { title: 'Angular', icon: 'angular' },
-        { title: 'React', icon: 'react' },
-        { title: 'Nextjs', icon: 'nextjs' }
+        { title: 'Javascript', icon: 'javascript', size: 18 },
+        { title: 'Typescript', icon: 'typescript', size: 18 },
+        { title: 'Java', icon: 'java', size: 18 },
+        { title: 'Angular', icon: 'angular', size: 18 },
+        { title: 'React', icon: 'react', size: 18 },
+        { title: 'Nextjs', icon: 'nextjs', size: 18 }
 
     ]
 }
@@ -17,9 +19,9 @@ const styling = {
     header: 'Styling',
     headerIcon: 'styling',
     items: [
-        { title: 'HTML', icon: 'html' },
-        { title: 'Css', icon: 'css' },
-        { title: 'Scss', icon: 'scss' },
+        { title: 'HTML', icon: 'html', size: 18 },
+        { title: 'Css', icon: 'css', size: 18 },
+        { title: 'Scss', icon: 'scss', size: 18 },
         { title: 'Styled-Components', icon: 'styled-components', size: 30 }
 
     ]
@@ -29,9 +31,9 @@ const buildAndTesting = {
     header: 'Build and Testing',
     headerIcon: 'building',
     items: [
-        { title: 'Eslint', icon: 'eslint' },
-        { title: 'Prettier', icon: 'prettier' },
-        { title: 'Webpack', icon: 'webpack' }
+        { title: 'Eslint', icon: 'eslint', size: 18 },
+        { title: 'Prettier', icon: 'prettier', size: 18 },
+        { title: 'Webpack', icon: 'webpack', size: 18 }
 
     ]
 }
@@ -40,8 +42,8 @@ const versionControl = {
     header: 'Version Control',
     headerIcon: 'version-control',
     items: [
-        { title: 'Git', icon: 'git' },
-        { title: 'Github', icon: 'github' }
+        { title: 'Git', icon: 'git', size: 18 },
+        { title: 'Github', icon: 'github', size: 18}
 
     ]
 }
@@ -50,8 +52,8 @@ const otherTools = {
     header: 'Others',
     headerIcon: 'others',
     items: [
-        { title: 'Jenkins', icon: 'jenkins' },
-        { title: 'Postman', icon: 'postman' }
+        { title: 'Jenkins', icon: 'jenkins', size: 18 },
+        { title: 'Postman', icon: 'postman', size: 18 }
     ]
 }
 
